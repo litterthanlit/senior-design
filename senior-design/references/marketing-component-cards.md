@@ -2,6 +2,8 @@
 
 Use this when designing marketing cards, feature cards, launch tiles, social cards, carousel slides, component cards, Bento-style product panels, or modular card systems.
 
+For poster-like campaign graphics with hard labels, halftone/dither textures, arrows, collage, and Swiss/brutalist composition, also use `graphic-launch-visuals.md`.
+
 ## Card Purpose
 
 Cards are not small pages. Each card needs one clear job:

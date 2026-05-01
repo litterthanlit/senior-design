@@ -15,6 +15,8 @@ Design starts with the domain.
 
 If the visual language could fit any startup, it is not specific enough.
 
+Default for modern SaaS and developer products: simple first, product-real first, decoration last.
+
 ## 2. Establish Hierarchy
 
 Before adding style, make the reading order obvious.
@@ -36,6 +38,7 @@ Use layout to communicate importance.
 - Dashboards need comparison-first layout, not decorative cards everywhere.
 - Landing pages need first-viewport clarity and a hint of what comes next.
 - Mobile screens need ruthless sequencing; do not shrink a desktop composition.
+- Product websites need a product-native proof surface: app chrome, code, workflow, dashboard, or screenshot.
 
 Avoid nested cards, random floating panels, and equal-weight sections.
 
@@ -44,7 +47,13 @@ Avoid nested cards, random floating panels, and equal-weight sections.
 Treat type as the main interface material.
 
 - Pick typefaces for the product's voice, not trendiness.
-- Use scale deliberately: display type for hero/editorial moments, compact type for tools.
+- Use scale deliberately, but default to restrained headline sizes. Most product and marketing sites should feel premium, not poster-sized.
+- For clean product websites, desktop hero headlines usually sit around `40-64px`.
+- For desktop hero headlines generally, start around `44-72px`; exceed this only for explicitly editorial/art-directed pages.
+- For section headings, start around `28-48px`; keep compact panels, cards, sidebars, and dashboards smaller.
+- For dashboards, page headings usually sit around `22-32px`, with app UI text around `13-15px`.
+- For mobile hero headlines, start around `30-38px`; avoid huge wrapping stacks that dominate the screen.
+- Keep most weights between `400-560`. Use `600-650` only for controls, labels, or rare emphasis. Avoid `700+` as a default.
 - Keep line length comfortable.
 - Use numbers with tabular alignment in data-heavy views.
 - Avoid negative letter spacing and viewport-based font scaling.
@@ -60,6 +69,7 @@ Color should encode meaning or establish tone.
 - Use accents for action, status, category, or brand signal.
 - Avoid one-note palettes where every surface is the same hue family.
 - Avoid default purple-blue gradients unless the brand truly demands them.
+- Avoid random blobs, orbs, auroras, and glow fields in clean product work.
 - Check contrast for text and controls.
 - Let real imagery or product visuals carry color when appropriate.
 
@@ -114,6 +124,9 @@ Run this pass before calling the design done:
 - Is the first screen immediately understandable?
 - Does the design fit the domain, or just look generically polished?
 - Is there a clear visual thesis?
+- Are headlines comfortably scaled, or are they shouting?
+- Are font weights calm, or is everything bold?
+- Is the main visual product-native, or just decorative?
 - Are typography, spacing, and alignment consistent?
 - Are cards used only where they frame repeated items or tools?
 - Does the UI work at mobile and desktop widths?

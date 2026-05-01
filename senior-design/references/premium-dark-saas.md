@@ -2,6 +2,8 @@
 
 Use this when designing high-end SaaS, AI products, creator tools, operating systems, studios, or dark product landing pages.
 
+For dashboards and real app surfaces, also use `product-dashboard-ui.md`. For clean product-led SaaS websites, prefer `clean-product-websites.md` unless the user asks for a premium dark direction.
+
 ## Core Feel
 
 Aim for a premium product launch page, not a generic dark template.
@@ -15,6 +17,7 @@ Aim for a premium product launch page, not a generic dark template.
 - Product-native abstract visuals: particle fields, node maps, canvases, timelines, layers, graphs, command surfaces.
 
 Avoid glows, random gradients, floating blobs, and decorative dashboards that do not explain the product.
+Avoid heavy typography everywhere; most text should sit between `400-560`.
 
 ## Page Architecture
 
@@ -35,6 +38,8 @@ Do not repeat centered feature sections. Vary scale and density.
 - Keep the first viewport readable; do not create giant empty gaps.
 - Put copy on the left and visual energy on the right only when the visual meaningfully supports the promise.
 - Use a compact headline scale: large enough to lead, not so large it becomes poster art.
+- Default desktop hero headline range: `48-72px`. Avoid going larger unless the user explicitly asks for oversized editorial type.
+- Default mobile hero headline range: `30-40px`. Keep the opening view balanced with copy, CTAs, and product signal.
 - Make one word carry the accent color when it sharpens positioning.
 - Keep supporting copy specific and under 3 short lines on desktop when possible.
 - Make the primary CTA visually decisive; make the secondary CTA quiet.
@@ -70,7 +75,7 @@ Use cards only when they frame distinct capabilities.
 - Visual motif anchored to the lower area.
 - No generic icon grid.
 
-Each card should answer: what capability does this product unlock?
+Each card should answer: what capability does this product make possible?
 
 ## Copy Posture
 
@@ -91,5 +96,5 @@ Before finishing, check:
 - Are feature cards distinct but clearly part of one system?
 - Is the hero visual meaningful, not just pretty?
 - Does the first viewport have enough content without dead air?
-- Do headings fit comfortably on desktop and mobile?
+- Do headings fit comfortably on desktop and mobile without feeling oversized?
 - Are dark-mode contrast and focus states usable?
