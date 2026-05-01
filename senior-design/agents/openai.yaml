@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Design"
+  short_description: "Tasteful senior-level UI design guidance"
+  default_prompt: "Use $senior-design to design a polished product interface with strong hierarchy and taste."

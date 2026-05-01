@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atlas OS</title>
+    <meta
+      name="description"
+      content="Atlas OS is a fictional dark SaaS landing page built to test the senior-design skill."
+    />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Atlas OS home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Atlas OS</span>
+      </a>
+      <nav class="nav-links" aria-label="Site">
+        <a href="#product">Product</a>
+        <a href="#use-cases">Use cases</a>
+        <a href="#resources">Resources</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#login">Log in</a>
+        <a class="button button-primary" href="#waitlist">Join waitlist <span aria-hidden="true">-></span></a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">The command center for <span>creative teams.</span></h1>
+          <p>
+            Atlas OS brings references, decisions, canvases, and handoff into one workspace
+            built for teams that ship visual work.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#waitlist">Join the waitlist <span aria-hidden="true">-></span></a>
+            <a class="button button-ghost" href="#product">Request a demo <span aria-hidden="true">-></span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="particle-field field-large">
+            <span style="--x: 8%; --y: 62%; --s: 5px; --c: var(--blue)"></span>
+            <span style="--x: 19%; --y: 48%; --s: 4px; --c: var(--orange)"></span>
+            <span style="--x: 31%; --y: 54%; --s: 7px; --c: var(--blue)"></span>
+            <span style="--x: 45%; --y: 40%; --s: 4px; --c: var(--orange)"></span>
+            <span style="--x: 61%; --y: 34%; --s: 8px; --c: var(--blue)"></span>
+            <span style="--x: 76%; --y: 48%; --s: 5px; --c: var(--blue)"></span>
+            <span style="--x: 89%; --y: 61%; --s: 6px; --c: var(--blue)"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust" aria-label="Trusted tools">
+        <p>Trusted by teams working across</p>
+        <ul>
+          <li>Notion</li>
+          <li>Linear</li>
+          <li>Figma</li>
+          <li>Vercel</li>
+          <li>Perplexity</li>
+          <li>Runway</li>
+        </ul>
+      </section>
+
+      <section id="product" class="system-section" aria-labelledby="system-title">
+        <div class="section-intro">
+          <p class="eyebrow">One OS. Fewer handoffs.</p>
+          <h2 id="system-title">Everything your team needs. Finally connected.</h2>
+          <p>
+            From collecting references to planning, reviewing, and shipping, Atlas OS keeps
+            the creative process visible without turning it into project-management sludge.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card dark-card">
+            <p>+ References</p>
+            <h3>Collect anything. Make it useful.</h3>
+            <span>Capture visual references, tag decisions, and build a shared library that thinks with you.</span>
+            <div class="mini-particles" aria-hidden="true"></div>
+          </article>
+
+          <article class="feature-card light-card">
+            <p>+ Taste engine</p>
+            <h3>Your taste, amplified by AI.</h3>
+            <span>Turn examples and constraints into reusable direction your team can apply.</span>
+            <div class="layer-stack" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+          </article>
+
+          <article class="feature-card canvas-card">
+            <p>+ Canvas</p>
+            <h3>From references to execution.</h3>
+            <span>An infinite canvas to plan, ideate, and build. Everything connected, nothing in the way.</span>
+            <div class="canvas-ui" aria-hidden="true">
+              <div class="toolbar"><b></b><b></b><b></b><b></b></div>
+              <div class="shape primary"></div>
+              <div class="shape image"></div>
+              <div class="shape note"></div>
+              <div class="handle one"></div>
+              <div class="handle two"></div>
+            </div>
+          </article>
+
+          <article class="feature-card dark-card export-card">
+            <p>+ Export</p>
+            <h3>Real handoff. No lock-in.</h3>
+            <span>Clean outputs for code, decks, docs, social, and print. Production-ready from the start.</span>
+            <div class="export-list" aria-hidden="true">
+              <span>HTML</span><span>React</span><span>PDF</span><span>SVG</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="use-cases" class="proof-section" aria-labelledby="proof-title">
+        <div>
+          <p class="eyebrow">Built for creative teams</p>
+          <h2 id="proof-title">Shared taste. Stronger products.</h2>
+          <p>
+            Align on direction, collect decisions, and move from rough reference to shipped work
+            without losing the thread.
+          </p>
+          <a href="#resources">Learn more about teams <span aria-hidden="true">-></span></a>
+        </div>
+        <dl class="metrics">
+          <div>
+            <dt>18K+</dt>
+            <dd>References collected</dd>
+          </div>
+          <div>
+            <dt>92%</dt>
+            <dd>Less review drift</dd>
+          </div>
+          <div>
+            <dt>∞</dt>
+            <dd>Ways to ship</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="waitlist" class="cta-band" aria-labelledby="cta-title">
+        <div>
+          <p class="eyebrow">Join the futures</p>
+          <h2 id="cta-title">The future of creative work starts here.</h2>
+          <p>Atlas OS is in private beta. Join the waitlist and shape what comes next.</p>
+          <a class="button button-light" href="mailto:signal@atlas.example">Join the waitlist <span aria-hidden="true">-></span></a>
+        </div>
+        <div class="cta-orbit" aria-hidden="true"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>Atlas OS</span>
+        </a>
+        <p>The operating system for creative teams. References, taste, canvas, and handoff in one workspace.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#product">Product</a>
+        <a href="#use-cases">Use cases</a>
+        <a href="#resources">Resources</a>
+        <a href="#about">Company</a>
+      </nav>
+    </footer>
+  </body>
+</html>

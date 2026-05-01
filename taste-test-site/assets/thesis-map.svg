@@ -1,0 +1,65 @@
+<svg width="720" height="620" viewBox="0 0 720 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Perigee Works thesis map</title>
+  <desc id="desc">Research domains connected to market formation and first customer proof.</desc>
+  <rect width="720" height="620" fill="#F3EFE5"/>
+  <g stroke="#171611" stroke-width="1.25">
+    <path d="M110 342C194 189 394 116 558 198" opacity=".35"/>
+    <path d="M130 424C254 266 436 245 590 355" opacity=".35"/>
+    <path d="M172 170C286 392 416 468 616 470" opacity=".35"/>
+    <path d="M106 340L356 306L560 196" opacity=".4"/>
+    <path d="M356 306L590 356" opacity=".4"/>
+    <path d="M356 306L616 470" opacity=".4"/>
+    <path d="M172 170L356 306" opacity=".4"/>
+  </g>
+  <g>
+    <circle cx="356" cy="306" r="78" fill="#171611"/>
+    <circle cx="356" cy="306" r="96" stroke="#171611" stroke-width="1" opacity=".35"/>
+    <text x="356" y="292" text-anchor="middle" fill="#F3EFE5" font-family="Arial, sans-serif" font-size="13" font-weight="700">FIRST</text>
+    <text x="356" y="314" text-anchor="middle" fill="#F3EFE5" font-family="Arial, sans-serif" font-size="13" font-weight="700">CUSTOMER</text>
+    <text x="356" y="340" text-anchor="middle" fill="#CFC5B4" font-family="Georgia, serif" font-size="18">proof loop</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#171611">
+    <circle cx="172" cy="170" r="47" fill="#E5DDCF" stroke="#171611" stroke-width="1.25"/>
+    <text x="172" y="166" text-anchor="middle">COMPUTE</text>
+    <text x="172" y="184" text-anchor="middle" fill="#696358">systems</text>
+    <circle cx="560" cy="196" r="47" fill="#E5DDCF" stroke="#171611" stroke-width="1.25"/>
+    <text x="560" y="192" text-anchor="middle">MATERIALS</text>
+    <text x="560" y="210" text-anchor="middle" fill="#696358">recovery</text>
+    <circle cx="590" cy="356" r="47" fill="#E5DDCF" stroke="#171611" stroke-width="1.25"/>
+    <text x="590" y="352" text-anchor="middle">CLIMATE</text>
+    <text x="590" y="370" text-anchor="middle" fill="#696358">machines</text>
+    <circle cx="616" cy="470" r="47" fill="#E5DDCF" stroke="#171611" stroke-width="1.25"/>
+    <text x="616" y="466" text-anchor="middle">BIO</text>
+    <text x="616" y="484" text-anchor="middle" fill="#696358">systems</text>
+    <circle cx="106" cy="340" r="47" fill="#E5DDCF" stroke="#171611" stroke-width="1.25"/>
+    <text x="106" y="336" text-anchor="middle">ENERGY</text>
+    <text x="106" y="354" text-anchor="middle" fill="#696358">storage</text>
+    <circle cx="130" cy="424" r="47" fill="#E5DDCF" stroke="#171611" stroke-width="1.25"/>
+    <text x="130" y="420" text-anchor="middle">INDUSTRIAL</text>
+    <text x="130" y="438" text-anchor="middle" fill="#696358">software</text>
+  </g>
+  <g fill="#9C3E24">
+    <circle cx="356" cy="306" r="5"/>
+    <circle cx="172" cy="170" r="4"/>
+    <circle cx="560" cy="196" r="4"/>
+    <circle cx="590" cy="356" r="4"/>
+    <circle cx="616" cy="470" r="4"/>
+    <circle cx="106" cy="340" r="4"/>
+    <circle cx="130" cy="424" r="4"/>
+  </g>
+  <g font-family="Georgia, serif" fill="#171611">
+    <text x="52" y="68" font-size="30">Market formation map</text>
+    <text x="52" y="100" font-size="15" fill="#696358">science, wedge, buyer, proof</text>
+  </g>
+  <g stroke="#171611" stroke-width="1">
+    <line x1="52" y1="552" x2="668" y2="552"/>
+    <line x1="52" y1="572" x2="214" y2="572"/>
+    <line x1="236" y1="572" x2="398" y2="572"/>
+    <line x1="420" y1="572" x2="668" y2="572"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#696358">
+    <text x="52" y="590">TECHNICAL EDGE</text>
+    <text x="236" y="590">BUYER SIGNAL</text>
+    <text x="420" y="590">CATEGORY LANGUAGE</text>
+  </g>
+</svg>
