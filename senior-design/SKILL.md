@@ -18,6 +18,8 @@ Use this skill to make Codex behave like a senior product designer, not a decora
 
 When the task is a real design/build request, read `references/taste-heuristics.md` before making design decisions.
 
+For any broad UI creation, redesign, or critique task where the user asks for senior taste, also read `references/design-operating-model.md`.
+
 When the user provides a moodboard, inspiration board, Cosmos collection, screenshots, visual references, or asks to expand taste from references, also read `references/moodboard-analysis-workflow.md`.
 
 When the user asks for a clean product website, SaaS landing page, developer tool, AI product, infrastructure product, simple marketing site, or product-led website, also read `references/clean-product-websites.md`.
