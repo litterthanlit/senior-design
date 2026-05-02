@@ -31,6 +31,13 @@ Build a repeatable system before making individual cards:
 
 The set should feel collectible, not templated.
 
+Before composing the set, define card-level knob variation:
+
+- Keep one shared system: logo/chrome, type family, safe area, and accent logic.
+- Vary at least two knobs across cards: grid, surface, proof type, contrast, or card treatment.
+- Do not make every card the same stack of brand chrome, headline, and bottom visual.
+- Use repeated rules for cohesion, not repeated layouts.
+
 ## Composition Patterns
 
 Use 2-4 patterns across a card set:

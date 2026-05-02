@@ -10,13 +10,16 @@ Use this skill to make Codex behave like a senior product designer, not a decora
 ## Core Workflow
 
 1. Identify the product, audience, job-to-be-done, and desired emotional tone.
-2. Choose one clear design thesis before touching UI code.
-3. Extract principles from any reference the user provides; do not copy its surface.
-4. Build the first screen as the real experience, not a marketing placeholder.
-5. Critique the result against hierarchy, rhythm, density, typography, copy, accessibility, and responsiveness.
-6. Iterate until the interface feels intentional at desktop and mobile sizes.
+2. Set the taste knobs before choosing patterns: scale, density, surface, contrast, grid, motion, proof, accent, personality, and card treatment.
+3. Choose one clear design thesis before touching UI code.
+4. Extract principles from any reference the user provides; do not copy its surface.
+5. Build the first screen as the real experience, not a marketing placeholder.
+6. Critique the result against hierarchy, rhythm, density, typography, copy, accessibility, and responsiveness.
+7. Iterate until the interface feels intentional at desktop and mobile sizes.
 
 When the task is a real design/build request, read `references/taste-heuristics.md` before making design decisions.
+
+For any new site, app screen, dashboard, card set, or redesign, read `references/taste-knobs.md` before using visual recipes. Recipes are examples of knob settings, not templates.
 
 For any broad UI creation, redesign, or critique task where the user asks for senior taste, also read `references/design-operating-model.md`.
 
@@ -64,17 +67,20 @@ State the direction briefly before implementation. Pick one primary taste mode:
 Then include:
 
 - Positioning: what this interface should feel like and why.
+- Taste profile: the key knob settings that will make this design distinct.
 - Layout model: editorial, dense operational, portfolio-led, immersive, tool-first, commerce-first, etc.
 - Type behavior: quiet utility, sharp editorial, technical precision, luxury restraint, playful display.
 - Color behavior: neutral foundation, limited accent, high-contrast editorial, data-coded, image-led.
 - Signature moment: the one memorable interaction, composition, image treatment, or content structure.
 
 Avoid vague directions like "modern and clean." Replace them with concrete choices.
+Do not reuse a recipe until the knobs have been set; vary at least two knobs from the closest reference so the result does not look cloned.
 
 ## Senior Taste Rules
 
 - Prefer fewer, stronger ideas over many decorative moves.
 - Let the subject matter lead the visual language.
+- Treat references as knob combinations, not templates.
 - Use real content, real hierarchy, and real workflows early.
 - Start simple and product-real. Add atmosphere only after the product surface works.
 - Make spacing feel designed: consistent rhythm, deliberate breaks, no random padding.

@@ -10,7 +10,7 @@ Make the page feel authored, not templated. The strongest move is usually text, 
 
 - Keep navigation small, plain, and identity-led: name, role, a few links.
 - Let the current section feel selected through weight or one tiny accent, not a full nav treatment.
-- Use one large editorial headline to establish voice, then get out of the way.
+- Use one editorial headline to establish voice, then get out of the way. Large does not mean oversized; default to restraint.
 - Treat the body as a chronological feed with clear entries, not a card grid.
 - Use metadata chips for date, location, category, or status.
 - Put generous vertical air before the first entry; the silence is part of the tone.
@@ -20,7 +20,10 @@ Make the page feel authored, not templated. The strongest move is usually text, 
 ## Typography
 
 - Pair a high-character display face with a quiet sans-serif body.
-- Serif or editorial display type can be large here, but keep it intentional and sparse.
+- Serif or editorial display type can be expressive here, but keep it intentional and sparse.
+- Default portfolio/update hero headlines to `38-54px` on desktop. Treat `54px` as the normal upper bound unless the user explicitly asks for a poster-like page.
+- Default section headings to `24-34px`; project list titles usually sit around `20-26px`.
+- On mobile, keep hero headlines around `34-46px`; avoid huge stacked words that consume the screen.
 - Body copy should feel readable and conversational: `17-22px`, relaxed line height, normal weight.
 - Avoid heavy weights. Most text should sit around `400-520`.
 - Use punctuation and line breaks as composition tools.

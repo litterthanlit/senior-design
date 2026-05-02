@@ -17,6 +17,8 @@ If the visual language could fit any startup, it is not specific enough.
 
 Default for modern SaaS and developer products: simple first, product-real first, decoration last.
 
+Before choosing a visual pattern, set the taste knobs from `taste-knobs.md`. This prevents references from turning into templates.
+
 ## 2. Establish Hierarchy
 
 Before adding style, make the reading order obvious.
@@ -28,6 +30,24 @@ Before adding style, make the reading order obvious.
 - Secondary information is available without competing.
 
 Good hierarchy should survive if color is removed.
+
+## 2.5 Set The Knobs
+
+Use knobs to create difference before adding detail:
+
+- Scale: compact, standard, editorial, or poster.
+- Density: sparse, balanced, operational, or dense.
+- Surface: flat, bordered, soft-depth, glass, or immersive.
+- Contrast: low, medium, high, or stark.
+- Grid: strict, editorial, canvas, dashboard, or poster.
+- Motion: still, subtle, responsive, or cinematic.
+- Proof: screenshot, workflow, diagram, metric, narrative, object, or image.
+- Accent: none, status-only, CTA-only, brand-moments, or expressive.
+- Personality: quiet, technical, luxury, playful, or art-directed.
+- Card treatment: naked, hairline, soft-depth, inset, glass, or brutal.
+
+Default to restrained scale, balanced density, medium contrast, product-native proof, and subtle motion.
+Vary at least two knobs from the closest reference before designing so the result has its own identity.
 
 ## 3. Compose With Intent
 
@@ -50,6 +70,7 @@ Treat type as the main interface material.
 - Use scale deliberately, but default to restrained headline sizes. Most product and marketing sites should feel premium, not poster-sized.
 - For clean product websites, desktop hero headlines usually sit around `40-64px`.
 - For desktop hero headlines generally, start around `44-72px`; exceed this only for explicitly editorial/art-directed pages.
+- For personal portfolios and update feeds, editorial does not automatically mean giant type; start around `38-54px` desktop and treat `54px` as the normal upper bound.
 - For section headings, start around `28-48px`; keep compact panels, cards, sidebars, and dashboards smaller.
 - For dashboards, page headings usually sit around `22-32px`, with app UI text around `13-15px`.
 - For mobile hero headlines, start around `30-38px`; avoid huge wrapping stacks that dominate the screen.

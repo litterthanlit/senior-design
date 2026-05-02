@@ -34,6 +34,7 @@ Every screen must answer:
 - Clear hierarchy: one obvious primary action, clear secondary actions, supporting information.
 - Strong spacing: use whitespace deliberately; density must have a reason.
 - Typographic control: disciplined scale, weight, tracking, line-height, and contrast.
+- Taste knobs before recipes: set scale, density, surface, contrast, grid, motion, proof, accent, personality, and card treatment before choosing visual patterns.
 - Real product logic: screens must feel usable, not like fake portfolio shots.
 - Visual rhythm: grids, alignment, repeated structures, consistent spacing, intentional asymmetry.
 - Subtle details: quiet dividers, precise borders, soft shadows, hover/active states, loading/empty states, status indicators, keyboard shortcuts, command palettes, inline editing, optimistic feedback.
@@ -100,6 +101,7 @@ When generating code:
 Before returning work, revise until the answer is yes:
 
 - Is this better than generic SaaS UI?
+- Did the work choose clear taste knobs instead of copying a recipe?
 - Does it feel like a real product?
 - Is the hierarchy obvious?
 - Is the typography controlled?

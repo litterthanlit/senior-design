@@ -4,7 +4,7 @@ Use this for simple SaaS/product websites, developer tools, AI tools, infrastruc
 
 ## Reference Set
 
-Study Cursor, Vercel, and Linear for structure. Do not copy their brand, copy, logo, exact layouts, or visuals.
+Study Cursor, Vercel, Linear, and strong whitespace-led product sites like the Midship reference for structure. Do not copy their brand, copy, logo, exact layouts, or visuals.
 
 ## Core Feel
 
@@ -17,6 +17,7 @@ The page should feel useful before it feels impressive.
 - Product screenshot, app chrome, code surface, or workflow preview as proof.
 - Sparse color, used for action, status, data, or brand signal.
 - Generous whitespace around marketing copy; dense detail only inside product visuals.
+- High confidence through restraint: the page can feel premium with plain type, grid structure, and a useful product surface.
 
 ## Page Model
 
@@ -31,14 +32,30 @@ Default structure:
 
 Avoid stacking generic feature cards when a product surface would explain the product better.
 
+## Midship-Style Product Website Pattern
+
+Use this pattern when the product is operational, compliance, security, finance, developer infrastructure, B2B workflow, or any tool that needs trust more than flash.
+
+- Hero sits inside a strong bounded canvas, often black or near-black, with a subtle grid/dot field.
+- Headline is clear and medium-large, not huge. The product proof creates scale.
+- Keep the first screen spacious: nav at top, message left, input/CTA below, product proof as the main visual anchor.
+- Put the most detailed UI screenshot below the hero copy, not squeezed beside it.
+- Use alternating dark and light bands to create rhythm: dark for system/proof, light for explanation, dark for research/security/metrics.
+- Let each section have one message, one paragraph, and one substantial visual or proof structure.
+- Use thin borders, hairline grids, and quiet section labels like `[Solution]`, `[Research]`, `[Security]`.
+- For focused CTA or proof cards, use subtle depth: low-contrast border, inner highlight, and a broad soft shadow. Avoid hard outlines or heavy drop shadows.
+- Leave large margins around content. Do not fill every column.
+- Use photographic or textured product-adjacent imagery sparingly, paired with actual UI.
+- Footer stays utilitarian and calm.
+
 ## Typography
 
 - Use clean sans-serif by default.
 - Keep most font weights between `400-560`.
 - Reserve `600-650` for buttons, active nav, or small labels.
 - Avoid `700+` except for rare brand/editorial moments.
-- Desktop hero headline: usually `40-64px`.
-- Desktop section headline: usually `28-44px`.
+- Desktop hero headline: usually `40-56px`; use `64px` only for short, spacious product sites where the screenshot/proof still dominates.
+- Desktop section headline: usually `28-40px`.
 - Mobile hero headline: usually `30-38px`.
 - Letter spacing should be normal or very slightly tight; never crushed.
 - Body copy should be medium gray, specific, and short.
@@ -71,6 +88,7 @@ Avoid:
 - Let product surfaces sit in a stable container with believable scale.
 - Leave room around the hero so it feels confident, not crowded.
 - Show the next section just enough to imply depth.
+- Prefer large empty fields over oversized type. Whitespace is an active design element.
 
 ## Copy
 
