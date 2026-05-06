@@ -36,6 +36,7 @@ Avoid:
 - Oversized empty panels.
 - Centered hero copy inside an app surface.
 - Random floating cards with no workflow relationship.
+- Cards around content that would work better as rows, tables, timelines, split panes, or inspector sections.
 
 ## Product Chrome
 
@@ -69,6 +70,7 @@ Every control should imply an actual workflow.
 - Accent color marks state, selection, priority, status, or primary action.
 - Borders should be visible but quiet.
 - Background contrast should separate levels without making every panel a card.
+- Use cards only for real objects, grouped state, or bounded tools. Operational UI usually wants rows, panes, tabs, tables, timelines, and inspectors.
 - Avoid glassmorphism unless blur represents layered app chrome.
 
 ## Data And Content

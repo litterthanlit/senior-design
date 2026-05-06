@@ -10,7 +10,7 @@ Use this skill to make Codex behave like a senior product designer, not a decora
 ## Core Workflow
 
 1. Identify the product, audience, job-to-be-done, and desired emotional tone.
-2. Set the taste knobs before choosing patterns: scale, density, surface, contrast, grid, motion, proof, accent, personality, and card treatment.
+2. Set the taste knobs before choosing patterns: scale, density, surface, contrast, grid, motion, proof, accent, personality, and containment.
 3. Choose one clear design thesis before touching UI code.
 4. Extract principles from any reference the user provides; do not copy its surface.
 5. Build the first screen as the real experience, not a marketing placeholder.
@@ -75,6 +75,7 @@ Then include:
 
 Avoid vague directions like "modern and clean." Replace them with concrete choices.
 Do not reuse a recipe until the knobs have been set; vary at least two knobs from the closest reference so the result does not look cloned.
+Do not add cards because the page needs "something." Use cards only for repeated objects, tools, proof, actions, or clearly bounded states.
 
 ## Senior Taste Rules
 
@@ -85,6 +86,7 @@ Do not reuse a recipe until the knobs have been set; vary at least two knobs fro
 - Start simple and product-real. Add atmosphere only after the product surface works.
 - Make spacing feel designed: consistent rhythm, deliberate breaks, no random padding.
 - Use typography as the primary visual system before adding effects, but keep headline scale controlled. Avoid billboard-sized hero type unless the user explicitly asks for poster/editorial drama.
+- Prefer unframed sections, rows, lists, screenshots, and product surfaces before reaching for cards.
 - Keep most UI and marketing font weights between `400-560`. Use heavy weights sparingly.
 - Use motion only when it clarifies state, focus, or sequence.
 - Give every accent a job: navigation, state, emphasis, category, or conversion.
@@ -98,7 +100,9 @@ Avoid these unless the user explicitly asks and the product context supports the
 - Random gradient blobs, orbs, auroras, or glow fields.
 - Generic glassmorphism.
 - Fake metric cards that do not model a workflow.
+- Cards used only to fill empty space.
 - Evenly weighted card grids as the main solution.
+- Nested cards or card-in-card layouts.
 - Bold font everywhere.
 - Decorative dashboards that do not explain the product.
 - Abstract visuals before product-native visuals.

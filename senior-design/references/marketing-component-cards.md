@@ -1,6 +1,6 @@
 # Marketing And Component Cards
 
-Use this when designing marketing cards, feature cards, launch tiles, social cards, carousel slides, component cards, Bento-style product panels, or modular card systems.
+Use this when the user explicitly asks for marketing cards, feature cards, launch tiles, social cards, carousel slides, component cards, Bento-style product panels, or modular card systems. Do not route normal websites here just because they need features.
 
 For poster-like campaign graphics with hard labels, halftone/dither textures, arrows, collage, and Swiss/brutalist composition, also use `graphic-launch-visuals.md`.
 
@@ -16,6 +16,7 @@ Cards are not small pages. Each card needs one clear job:
 - Component card: demonstrate a UI primitive, canvas, export, layer, code block, or system behavior.
 
 Do not use cards as decorative filler.
+If a feature can be clearer as a product screenshot, open section, row, list, comparison, timeline, or workflow diagram, do that instead.
 
 ## System Anatomy
 
@@ -34,7 +35,7 @@ The set should feel collectible, not templated.
 Before composing the set, define card-level knob variation:
 
 - Keep one shared system: logo/chrome, type family, safe area, and accent logic.
-- Vary at least two knobs across cards: grid, surface, proof type, contrast, or card treatment.
+- Vary at least two knobs across cards: grid, surface, proof type, contrast, or containment.
 - Do not make every card the same stack of brand chrome, headline, and bottom visual.
 - Use repeated rules for cohesion, not repeated layouts.
 

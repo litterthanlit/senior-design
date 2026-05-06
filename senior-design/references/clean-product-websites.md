@@ -30,7 +30,7 @@ Default structure:
 5. Capability sections: fewer, deeper sections with product visuals.
 6. Conversion close: simple CTA, not a second hero.
 
-Avoid stacking generic feature cards when a product surface would explain the product better.
+Avoid stacking generic feature cards when a product surface, screenshot, section, row, or comparison would explain the product better.
 
 ## Midship-Style Product Website Pattern
 
@@ -76,6 +76,7 @@ Avoid:
 
 - Random blobs, orbs, aurora fields, and decorative gradients.
 - Fake metric cards that do not connect to a workflow.
+- Feature cards that exist only because the page needs another section.
 - Glass panels for their own sake.
 - Stock-like abstract art.
 - Hero visuals that cannot explain what the product does.
@@ -89,6 +90,7 @@ Avoid:
 - Leave room around the hero so it feels confident, not crowded.
 - Show the next section just enough to imply depth.
 - Prefer large empty fields over oversized type. Whitespace is an active design element.
+- Use unframed sections and product proof before card grids. Empty space is not a problem to solve with boxes.
 
 ## Copy
 

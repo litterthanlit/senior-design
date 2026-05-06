@@ -34,7 +34,8 @@ Every screen must answer:
 - Clear hierarchy: one obvious primary action, clear secondary actions, supporting information.
 - Strong spacing: use whitespace deliberately; density must have a reason.
 - Typographic control: disciplined scale, weight, tracking, line-height, and contrast.
-- Taste knobs before recipes: set scale, density, surface, contrast, grid, motion, proof, accent, personality, and card treatment before choosing visual patterns.
+- Taste knobs before recipes: set scale, density, surface, contrast, grid, motion, proof, accent, personality, and containment before choosing visual patterns.
+- Containment discipline: cards need a job. Prefer sections, rows, lists, dividers, screenshots, and product-native surfaces when a frame is not needed.
 - Real product logic: screens must feel usable, not like fake portfolio shots.
 - Visual rhythm: grids, alignment, repeated structures, consistent spacing, intentional asymmetry.
 - Subtle details: quiet dividers, precise borders, soft shadows, hover/active states, loading/empty states, status indicators, keyboard shortcuts, command palettes, inline editing, optimistic feedback.
@@ -52,7 +53,7 @@ Dashboards are not random widget grids. They need:
 - Empty, error, and loading states.
 - Actionable next steps.
 
-Avoid generic cards like "Total Users", "Revenue", or "Growth" unless the metric is contextual, explained, and useful.
+Avoid generic cards like "Total Users", "Revenue", or "Growth" unless the metric is contextual, explained, and useful. Do not make a card grid just to make the dashboard look designed.
 
 ## Landing Page Standards
 

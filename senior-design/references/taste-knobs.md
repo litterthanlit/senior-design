@@ -19,7 +19,7 @@ Motion: still | subtle | responsive | cinematic
 Proof: screenshot | workflow | diagram | metric | narrative | object | image
 Accent: none | status-only | CTA-only | brand-moments | expressive
 Personality: quiet | technical | luxury | playful | art-directed
-Card treatment: naked | hairline | soft-depth | inset | glass | brutal
+Containment: none | section | row | list | screenshot | tool-surface | card | panel | modal
 ```
 
 Do not expose this full list to the user every time. Use it internally, then mention only the important choices if useful.
@@ -37,7 +37,7 @@ Default senior-design posture:
 - Proof: product-native before decorative.
 - Accent: `CTA-only` or `status-only`.
 - Personality: `quiet` unless the domain needs stronger voice.
-- Card treatment: `hairline` or `soft-depth`; avoid every card having the same treatment.
+- Containment: default to `none`, `section`, `row`, `list`, or `screenshot`. Use `card`, `panel`, or `modal` only when the content needs a boundary.
 
 ## Scale Knob
 
@@ -151,18 +151,30 @@ Personality controls tone across type, copy, spacing, and interaction.
 
 Do not mix too many personalities. Pick one primary and one secondary.
 
-## Card Treatment Knob
+## Containment Knob
 
-Card treatment controls containment.
+Containment controls whether content needs a visible box.
 
-- Naked: content sits directly on the page.
-- Hairline: thin border, little or no shadow.
-- Soft-depth: subtle border, inner highlight, broad soft shadow.
-- Inset: recessed panels, wells, console surfaces.
-- Glass: translucent layers and blur.
-- Brutal: hard border, flat fills, strong labels.
+- None: content sits directly on the page.
+- Section: full-width band or open layout with no card frame.
+- Row: scannable repeated content separated by dividers or rhythm.
+- List: chronological, editorial, settings, files, tasks, or records.
+- Screenshot: product proof inside believable app chrome.
+- Tool-surface: canvas, inspector, editor, table, terminal, map, or form.
+- Card: repeated object with one job, such as a project, file, feature, plan, or proof item.
+- Panel: persistent or floating product UI region, such as sidebar, inspector, ask panel, or drawer.
+- Modal: focused temporary decision or confirmation.
 
-Avoid a page where every card has the same visual weight. Use treatment to create hierarchy.
+Use the lowest containment that keeps the content understandable. Do not put content in a card just to decorate empty space.
+
+Card permission test:
+
+- Is this a repeated object the user compares or scans?
+- Is this a bounded tool, state, action, or proof unit?
+- Would the content become less clear without the frame?
+- Does the card create hierarchy instead of equalizing everything?
+
+If the answer is no, remove the card and use spacing, alignment, typography, dividers, or a real product surface.
 
 ## Example Profiles
 
@@ -171,14 +183,14 @@ Clean trust-led product site:
 ```md
 Scale: standard
 Density: sparse-balanced
-Surface: bordered + one soft-depth CTA/proof card
+Surface: bounded hero canvas + one soft-depth CTA/proof unit
 Contrast: medium with one high-contrast hero canvas
 Grid: strict
 Motion: subtle
 Proof: screenshot/workflow
 Accent: CTA-only
 Personality: technical + quiet
-Card treatment: hairline, soft-depth only for focus
+Containment: sections and screenshots first; one card only for focused proof or CTA
 ```
 
 Personal portfolio:
@@ -193,7 +205,7 @@ Motion: still/subtle
 Proof: narrative/project index
 Accent: none or brand-moment
 Personality: quiet + authored
-Card treatment: naked/hairline
+Containment: naked sections, rows, and feed entries
 ```
 
 Spatial editor or AI workspace:
@@ -208,7 +220,7 @@ Motion: responsive
 Proof: workflow/canvas state
 Accent: status-only
 Personality: technical + quiet
-Card treatment: hairline/inset/soft-depth
+Containment: canvas/tool surfaces, panels only where persistent UI needs boundaries
 ```
 
 Marketing card set:
@@ -223,7 +235,7 @@ Motion: still for static, subtle for web cards
 Proof: diagram/object/workflow
 Accent: brand-moments
 Personality: art-directed + technical
-Card treatment: varied, not cloned
+Containment: varied only because each card has a distinct job
 ```
 
 ## Anti-Template Check

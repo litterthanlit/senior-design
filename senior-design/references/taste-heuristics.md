@@ -44,10 +44,11 @@ Use knobs to create difference before adding detail:
 - Proof: screenshot, workflow, diagram, metric, narrative, object, or image.
 - Accent: none, status-only, CTA-only, brand-moments, or expressive.
 - Personality: quiet, technical, luxury, playful, or art-directed.
-- Card treatment: naked, hairline, soft-depth, inset, glass, or brutal.
+- Containment: none, section, row, list, screenshot, tool-surface, card, panel, or modal.
 
 Default to restrained scale, balanced density, medium contrast, product-native proof, and subtle motion.
 Vary at least two knobs from the closest reference before designing so the result has its own identity.
+Default away from cards. Use cards only for repeated objects, bounded tools, proof units, actions, or explicit states.
 
 ## 3. Compose With Intent
 
@@ -60,7 +61,7 @@ Use layout to communicate importance.
 - Mobile screens need ruthless sequencing; do not shrink a desktop composition.
 - Product websites need a product-native proof surface: app chrome, code, workflow, dashboard, or screenshot.
 
-Avoid nested cards, random floating panels, and equal-weight sections.
+Avoid nested cards, random floating panels, card grids used as filler, and equal-weight sections.
 
 ## 4. Make Typography Carry The Design
 
@@ -150,6 +151,7 @@ Run this pass before calling the design done:
 - Is the main visual product-native, or just decorative?
 - Are typography, spacing, and alignment consistent?
 - Are cards used only where they frame repeated items or tools?
+- Could any card become an unframed section, row, list, divider, or product screenshot?
 - Does the UI work at mobile and desktop widths?
 - Does text fit without overlap or awkward wrapping?
 - Are accessibility basics handled?
